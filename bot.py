@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 API_ID = 20937508
 API_HASH = "97d22a8e071ae65f3a78755000af1c14"
 BOT_TOKEN = "7537189928:AAGP11OyhkXi0mOOqjN6yT6RVeDBLlszkDs"
-REQUIRED_CHANNELS = ["@xerovip11", "@xeroupet"]  # Replace with your channels
+bot.get_chat_member("@xerovip11", user_id)  # Replace with your channels
 ADMIN_ID = 1438400248  # Replace with your Telegram User ID
 
 app = Client("simple_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
