@@ -1,12 +1,11 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_ID = 1234567  # replace with your API ID
-API_HASH = "your_api_hash"  # replace with your API HASH
-BOT_TOKEN = "your_bot_token"  # replace with your BOT TOKEN
-
-REQUIRED_CHANNELS = ["@channel1", "@channel2"]  # Replace with your channels
-ADMIN_ID = 123456789  # Replace with your Telegram User ID
+API_ID = 20937508
+API_HASH = "97d22a8e071ae65f3a78755000af1c14"
+BOT_TOKEN = "7537189928:AAGP11OyhkXi0mOOqjN6yT6RVeDBLlszkDs"
+REQUIRED_CHANNELS = ["@xerovip11", "@xeroupet"]  # Replace with your channels
+ADMIN_ID = 1438400248  # Replace with your Telegram User ID
 
 app = Client("simple_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
